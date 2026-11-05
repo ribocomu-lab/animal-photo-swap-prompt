@@ -1,0 +1,24 @@
+# API keys
+.env
+.env.*
+!.env.example
+
+# Python
+.venv/
+__pycache__/
+
+# Quality-test inputs and generated images
+poc/subjects/*
+!poc/subjects/.gitkeep
+poc/output/
+
+# Node / Next.js
+node_modules/
+.next/
+.vercel/
+.DS_Store
+out/
+coverage/
+next-env.d.ts
+*.tsbuildinfo
+
