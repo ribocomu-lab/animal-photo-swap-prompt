@@ -6,6 +6,9 @@ const nextConfig: NextConfig = {
   eslint: {
     ignoreDuringBuilds: true,
   },
+  outputFileTracingIncludes: {
+    "/api/generate": ["./poc/references/**/*", "./poc/prompt.txt"],
+  },
 };
 
 export default nextConfig;
